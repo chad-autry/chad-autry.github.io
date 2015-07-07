@@ -42,19 +42,19 @@
     <li>
         <dl>
             <dt>HexGalactic</dt>
-            <dd>A persistent programming game set in space. Much of my time right now is devoted to creating the components I need to make it a reality.</dd>
+            <dd>A persistent programming game set in space. All of the component projects listed below right now are invested towards making this a reality.</dd>
         </dl>
     </li>
     <li>
         <dl>
             <dt>OATS</dt>
-            <dd>Online Aural Tuned Spectrograph. Takes an uploaded wav file, converts it into the selected component frequencies (such as a musical scale), and graphs them.</dd>
+            <dd>Online Aural Tuned Spectrograph. Takes an uploaded wav file, converts it into the selected component frequencies (such as a musical scale), and graphs the frequencies.</dd>
         </dl>
     </li>
     <li>
         <dl>
             <dt><a href="https://github.com/chad-autry/rototone">rototone</a></dt>
-            <dd>An android project to allow creation of playlists of ringtones and sms notification tones. Actively used by me on my pwn phone, but I've let it lapse on google play. Currentlly just an import of the original project from google code. I intend to give it some more tender loving care when I finally upgrade my phone.</dd>
+            <dd>An android project to allow creation of playlists of ringtones and sms notification tones. Actively used by me on my own phone, but I've let it lapse on google play. Currentlly just an import of the original project from google code. I intend to give it some more tender loving care when I finally upgrade my phone.</dd>
         </dl>
     </li>
     <li>
@@ -116,6 +116,20 @@
         </dd>
     </dl>
 </li>
+<li>
+    <dl>
+        <dt><a href="https://github.com/chad-autry/stdin-eval-stdout">stdin-eval-stdout</a></dt>
+        <dd>A Javascript sandbox built with Node.js and Docker. Will use it to securely evaluate user submitted scripts in HexGalactic.
+        </dd>
+    </dl>
+</li>
+<li>
+    <dl>
+        <dt><a href="https://www.npmjs.com/package/request-response">request-response</a></dt>
+        <dd>A Node.js module to assist with multiple request and response messages across a read and a write stream. Used by <a href="https://github.com/chad-autry/stdin-eval-stdout">stdin-eval-stdout</a> to communicate with the sandboxed process over its stdin and stdout.
+        </dd>
+    </dl>
+</li>
 </ul>
 
 <h3>
@@ -146,7 +160,7 @@
 </li>
 <li>NodeQueueConsumerTemplate</li>
 <li>NodeConfigureableQueue</li>
-<li>NodeQueue+MongoFanInTemplate</li>
+<li>NodeQueue+CasandraFanInTemplate</li>
 </ul>
       </section>
     </div>
